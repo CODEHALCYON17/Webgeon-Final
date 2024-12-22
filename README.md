@@ -78,6 +78,6 @@ The frontend provides a user-friendly interface for interaction.
 5. Access the application at `http://localhost:3000` (default frontend port).
 
 ## Hosting
-The application can be hosted on Render.
+The application is hosted on Render.
 
 
