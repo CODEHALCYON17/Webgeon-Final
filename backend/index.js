@@ -170,9 +170,9 @@ app.get("/attendance/:id", authenticateToken, (req, res) => {
   }
 });
 
-app.use(express.static(path.join(___dirname, "/frontend/dist")));
+app.use(express.static(path.join(___dirname, "/frontend/build")));
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(___dirname, "frontend", "dist", "index.html"));
+  res.sendFile(path.resolve(___dirname, "frontend","build", "index.html"));
 });
 
 app.listen(PORT, () => {
